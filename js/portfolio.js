@@ -30,7 +30,7 @@ class Portfolio {
     }
 
     loadData(tab){
-        fetch(`/data/${tab}.json`)
+        fetch(`./data/${tab}.json`)
         .then((resp) => resp.json())
         .then((data)=> {
             this.showData(data, tab);
