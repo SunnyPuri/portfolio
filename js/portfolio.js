@@ -94,24 +94,23 @@ class Portfolio {
             $('#posts').removeClass("hide");
         }, 500);
 
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
+        let tabcontent, tablinks;
+
+        $('.tabcontent').removeClass("show");
+        $(`#${tabName}`).addClass("show");
+
         tablinks = document.getElementsByClassName("menu-item");
-        for (i = 0; i < tablinks.length; i++) {
+        for (let i = 0; i < tablinks.length; i++) {
             tablinks[i].className = tablinks[i].className.replace(" active", "");
         }
-        document.getElementById(tabName).style.display = "block";
         event.currentTarget.className += " active";
     }
 
     sticky_relocate() {
-        var window_top = $(window).scrollTop();
-        var div_top = $('#sticky-anchor').offset().top;
-        var div_top_right = $('#sticky-anchor-right').offset().top;
-        var div_menu = $('#sticky-anchor-menu').offset().top;
+        let window_top = $(window).scrollTop();
+        let div_top = $('#sticky-anchor').offset().top;
+        let div_top_right = $('#sticky-anchor-right').offset().top;
+        let div_menu = $('#sticky-anchor-menu').offset().top;
         if (window_top > div_top) {
             $('#sticky').addClass('stick');
             $('#sticky-anchor').height($('#sticky').outerHeight());

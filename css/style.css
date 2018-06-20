@@ -42,7 +42,11 @@ a {
     display: none !important;
 }
 
-.container{
+.show {
+    display: block !important;
+}
+
+.container {
     width: 100%;
     height: 100%;
 }
