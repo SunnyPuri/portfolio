@@ -2,50 +2,50 @@
     {
         "postHeadingLeft" : "",
         "postHeadingRight" : "",
-        "postBody" : "<img class='img-responsive' src='img/Google-Scholarship-India-Badge.png'>",
+        "postBody" : "<img class='img-responsive' src='img/Google-Scholarship-India-Badge.png' alt='Udacity | Google India Scholarship'>",
         "postFooterLeft" : "",
-        "postFooterRight" : ""
+        "postFooterRight" : "Udacity | Google India Scholarship"
     },
     {
         "postHeadingLeft" : "",
         "postHeadingRight" : "",
-        "postBody" : "<img class='img-responsive' src='img/insta-two.png'>",
+        "postBody" : "<img class='img-responsive' src='img/insta-two.png' alt='INSTA Award'>",
         "postFooterLeft" : "",
-        "postFooterRight" : ""
+        "postFooterRight" : "INSTA Award"
     },
     {
         "postHeadingLeft" : "",
         "postHeadingRight" : "",
-        "postBody" : "<img class='img-responsive' src='img/special-incentive.PNG'>",
+        "postBody" : "<img class='img-responsive' src='img/special-incentive.PNG' alt='Special Incentive Award'>",
         "postFooterLeft" : "",
-        "postFooterRight" : ""
+        "postFooterRight" : "Special Incentive Award"
     },
     {
         "postHeadingLeft" : "",
         "postHeadingRight" : "",
-        "postBody" : "<img class='img-responsive' src='img/insta-one.png'>",
+        "postBody" : "<img class='img-responsive' src='img/insta-one.png' alt='INSTA Award'>",
         "postFooterLeft" : "",
-        "postFooterRight" : ""
+        "postFooterRight" : "INSTA Award"
     },
     {
         "postHeadingLeft" : "",
         "postHeadingRight" : "",
-        "postBody" : "<img class='img-responsive' src='img/xpo.png'>",
+        "postBody" : "<img class='img-responsive' src='img/xpo.png' alt='Won XPO Logistics Hackathon'>",
         "postFooterLeft" : "",
-        "postFooterRight" : ""
+        "postFooterRight" : "Won XPO Logistics Hackathon"
     },
     {
         "postHeadingLeft" : "",
         "postHeadingRight" : "",
-        "postBody" : "<img class='img-responsive' src='img/dashboard.png'>",
+        "postBody" : "<img class='img-responsive' src='img/dashboard.png' alt='Won Dashboard Hackathon'>",
         "postFooterLeft" : "",
-        "postFooterRight" : ""
+        "postFooterRight" : "Won Dashboard Hackathon"
     },
     {
         "postHeadingLeft" : "",
         "postHeadingRight" : "",
-        "postBody" : "<img class='img-responsive' src='img/hackathon-1.png'><img class='img-responsive' src='img/hackathon-2.png'>",
+        "postBody" : "<img class='img-responsive' src='img/hackathon-1.png' alt='Won Dashboard Hackathon'><img class='img-responsive' src='img/hackathon-2.png' alt='Won Dashboard Hackathon'>",
         "postFooterLeft" : "",
-        "postFooterRight" : ""
+        "postFooterRight" : "INFOSYS"
     }
 ]
