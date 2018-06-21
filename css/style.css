@@ -14,18 +14,31 @@ body {
     color: #333;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
     color: inherit;
 }
 
-.h2, h2 {
+.h2,
+h2 {
     font-size: 30px;
 }
 
-ol, ul {
+ol,
+ul {
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -293,6 +306,8 @@ a.connect.active {
 }
 
 .connect-container {
+    display: flex;
+    justify-content: space-between;
     position: relative;
     max-width: 88%;
     padding: 8px 14px;
@@ -302,6 +317,10 @@ a.connect.active {
 .connect-container a {
     text-decoration: none;
     color: black;
+}
+
+.social-links{
+    display: flex;
 }
 
 .search-section .search-cancel {
@@ -330,7 +349,6 @@ a.connect.active {
 }
 
 .cross {
-    float: right;
     cursor: pointer;
 }
 
@@ -725,7 +743,9 @@ a.connect.active {
 }
 
 
-.col-md-3, .col-md-6, .col-md-12 {
+.col-md-3,
+.col-md-6,
+.col-md-12 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
